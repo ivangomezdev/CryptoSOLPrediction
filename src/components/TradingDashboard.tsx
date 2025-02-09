@@ -151,7 +151,7 @@ const TradingDashboard: React.FC = () => {
           
           <div className="bg-gray-800 rounded-lg p-6">
             <h2 className="text-xl font-semibold mb-4">
-              {scalpingMode ? 'Scalping Recommendation' : 'Trading Recommendation'}
+              {scalpingMode ? 'Scalping' : 'Trading SPOT'}
             </h2>
             {recommendation && (
               <div>
